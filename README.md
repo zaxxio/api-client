@@ -1,4 +1,7 @@
 # HTTP Client
+![Screenshot](./assets/ray-so-export.png)
+
+
 ```java
 public interface PostService {
     @GET("/posts/{id}")
@@ -16,4 +19,3 @@ public interface PostService {
 
 }
 ```
-![Screenshot](./assets/ray-so-export.png)
