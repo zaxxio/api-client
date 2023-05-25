@@ -1,4 +1,4 @@
-package com.avaand.app.httpclient.http;
+package org.zaxxio.http;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

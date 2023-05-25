@@ -1,2 +1,10 @@
-package org.zaxxio.http;public class DELETE {
+package org.zaxxio.http;
+
+import java.lang.annotation.*;
+
+@Target({ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
+public @interface DELETE {
+    String value() default "";
 }
